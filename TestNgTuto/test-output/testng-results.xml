@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T19:30:37 IST" name="Loan Dept" finished-at="2024-07-11T19:30:37 IST" duration-ms="102">
+    <groups>
+      <group name="smoke">
+        <method signature="Day4.APIloginHome()[pri:0, instance:Test.Day4@61862a7f]" name="APIloginHome" class="Test.Day4"/>
+        <method signature="Day4.MobileLoginHome()[pri:0, instance:Test.Day4@61862a7f]" name="MobileLoginHome" class="Test.Day4"/>
+        <method signature="Day3.MobilesigninCar()[pri:0, instance:Test.Day3@3febb011]" name="MobilesigninCar" class="Test.Day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-07-11T19:30:37 IST" name="Personal Loan" finished-at="2024-07-11T19:30:37 IST" duration-ms="98">
+      <class name="Test.Day2">
+        <test-method is-config="true" signature="BeforePersonalloan()[pri:0, instance:Test.Day2@384ad17b]" started-at="2024-07-11T19:30:37 IST" name="BeforePersonalloan" finished-at="2024-07-11T19:30:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforePersonalloan -->
+        <test-method signature="Personalloan(java.lang.String)[pri:0, instance:Test.Day2@384ad17b]" started-at="2024-07-11T19:30:37 IST" name="Personalloan" finished-at="2024-07-11T19:30:37 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Personalloan -->
+        <test-method is-config="true" signature="AfterPersonalloan()[pri:0, instance:Test.Day2@384ad17b]" started-at="2024-07-11T19:30:37 IST" name="AfterPersonalloan" finished-at="2024-07-11T19:30:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterPersonalloan -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day1">
+        <test-method signature="Demo1(java.lang.String)[pri:0, instance:Test.Day1@40ef3420]" started-at="2024-07-11T19:30:37 IST" name="Demo1" finished-at="2024-07-11T19:30:37 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- Test.Day1 -->
+      <class name="Test.Day4">
+        <test-method signature="APIHome(java.lang.String)[pri:0, instance:Test.Day4@61862a7f]" started-at="2024-07-11T19:30:37 IST" name="APIHome" finished-at="2024-07-11T19:30:37 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIHome -->
+        <test-method signature="APIloginHome()[pri:0, instance:Test.Day4@61862a7f]" started-at="2024-07-11T19:30:37 IST" name="APIloginHome" finished-at="2024-07-11T19:30:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginHome -->
+        <test-method signature="MobileLoginHome()[pri:0, instance:Test.Day4@61862a7f]" started-at="2024-07-11T19:30:37 IST" name="MobileLoginHome" finished-at="2024-07-11T19:30:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHome -->
+      </class> <!-- Test.Day4 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2024-07-11T19:30:37 IST" name="Car loan" finished-at="2024-07-11T19:30:37 IST" duration-ms="102">
+      <class name="Test.Day3">
+        <test-method is-config="true" signature="BeforeFsuite()[pri:0, instance:Test.Day3@3febb011]" started-at="2024-07-11T19:30:37 IST" name="BeforeFsuite" finished-at="2024-07-11T19:30:37 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeFsuite -->
+        <test-method signature="MobileLoginCar(java.lang.String)[pri:0, instance:Test.Day3@3febb011]" started-at="2024-07-11T19:30:37 IST" name="MobileLoginCar" finished-at="2024-07-11T19:30:37 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCar -->
+        <test-method signature="MobilesigninCar()[pri:0, instance:Test.Day3@3febb011]" started-at="2024-07-11T19:30:37 IST" name="MobilesigninCar" finished-at="2024-07-11T19:30:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesigninCar -->
+        <test-method signature="MobilesignoutCar(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3@3febb011]" started-at="2024-07-11T19:30:37 IST" name="MobilesignoutCar" data-provider="getData" finished-at="2024-07-11T19:30:37 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutCar -->
+        <test-method signature="MobilesignoutCar(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3@3febb011]" started-at="2024-07-11T19:30:37 IST" name="MobilesignoutCar" data-provider="getData" finished-at="2024-07-11T19:30:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutCar -->
+        <test-method signature="MobilesignoutCar(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3@3febb011]" started-at="2024-07-11T19:30:37 IST" name="MobilesignoutCar" data-provider="getData" finished-at="2024-07-11T19:30:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutCar -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Day1">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:Test.Day1@40ef3420]" started-at="2024-07-11T19:30:37 IST" name="Aftersuite" finished-at="2024-07-11T19:30:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- Test.Day1 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Loan Dept -->
+</testng-results>
